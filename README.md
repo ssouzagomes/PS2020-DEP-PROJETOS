@@ -1,2 +1,3 @@
 # PS2020-DEP-PROJETOS
-CRUD E-commerce
+
+Este projeto tem como objetivo o desenvolvimento de um site para exibição de produtos. Como também, gerar um link para o perfil do Instagram, onde será vendido os produtos.
