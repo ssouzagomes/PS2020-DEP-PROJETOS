@@ -127,42 +127,45 @@ div#description {
   color: #E5E5E5;
 }
 
-/* Questão sobre a empresa */
+/* Seção inferior da página */
 
-section#question {
-  position: absolute;
-  width: 255px;
-  height: 237px;
-  left: 72px;
-  top: 370px;
-
+section#pagedowm {
   font-family: 'Roboto';
   font-style: normal;
-  color: black;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #000000;
 }
 
-section#question h1 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-}
-
-section#question p {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-/* Imagem página inicial */
-
-picture img {
+section#pagedowm p#mission {
   position: absolute;
-  width: 500px;
-  height: 334px;
-  left: 765px;
-  top: 370px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.80);
-  border-radius: 20px;
+  width: 348px;
+  height: 147px;
+  left: 64px;
+  top: 444px;
+  text-align: left;
+}
+
+section#pagedowm p#vision {
+  position: absolute;
+  
+  width: 348px;
+  height: 107px;
+  left: 509px;
+  top: 537px;
+  text-align: center;
+}
+
+section#pagedowm p#values {
+  position: absolute;
+
+  width: 348px;
+  height: 137px;
+  left: 950px;
+  top: 444px;
+  text-align: right;
 }
 
 /* Rodapé */
