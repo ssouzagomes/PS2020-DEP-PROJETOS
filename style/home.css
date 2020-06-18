@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Corpo da página */
+
+body {
+  background: #FFFFFF;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+/* Topo da página */
+
+section#pageup {
+  background-image: url("../assets/background.jpg");
+  color: #E5E5E5;
+  height: 380px;
+  font-family: 'Ubuntu';
+}
+
+/* Nome/Logo da empresa */
+
+h2#logo {
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  left: 102px;
+  top: 10px;
+
+  font-family: 'Piedra';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/* Background do topo da página */
+
+section#pageup img {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 72px;
+  top: 30px;
+}
+
+/* Navegação entre páginas */
+
+div#navigation nav {
+  display: block;
+}
+
+div#navigation nav ul {
+  list-style: none;
+  position: absolute;
+  top: 0px;
+  left: 480px;
+}
+
+div#navigation nav li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 1s;
+}
+
+
+div#navigation nav li:hover {
+  background-color: #30443B;
+}
+
+div#navigation nav a {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+/* Link para o Instagram */
+
+div#instagram {
+  width: 200px;
+  height: 100px;
+
+  text-align: center;
+  margin-left: 1090px;
+  margin-top: -20px;
+}
+
+div#instagram a#username {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+div#instagram a#username:hover {
+  color: #30443B;
+}
+
+div#instagram a#insta {
+  position: relative;
+  right: 72px;
+  bottom: 22px;
+}
+
+/* Descrição da Empresa no topo da página*/
+
+div#description {
+  position: absolute;
+  width: 745px;
+  height: 85px;
+  left: 72px;
+  top: 120px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+
+  color: #E5E5E5;
+}
+
+/* Questão sobre a empresa */
+
+section#question {
+  position: absolute;
+  width: 255px;
+  height: 237px;
+  left: 72px;
+  top: 370px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  color: black;
+}
+
+section#question h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+section#question p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* Imagem página inicial */
+
+picture img {
+  position: absolute;
+  width: 500px;
+  height: 334px;
+  left: 765px;
+  top: 370px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.80);
+  border-radius: 20px;
+}
+
+/* Rodapé */
+
+footer {
+  position: absolute;
+  width: 1349px;
+  height: 70px;
+  top: 750px;
+
+  border-top: 1px solid #606060;
+  background: #E5E5E5;;
+}
+
+footer p#contato {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 72px;
+
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: left;
+  color: #000000;
+}
+
+footer p#copy {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 594px;
+
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 20px;
+
+  text-align: center;
+  color: #000000;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer img {
+  position: flex;
+  width: 15px;
+  height: 15px;
+}
