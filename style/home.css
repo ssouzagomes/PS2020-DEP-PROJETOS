@@ -194,11 +194,6 @@ footer p#contato {
 }
 
 footer p#copy {
-  position: absolute;
-  width: 180px;
-  height: 30px;
-  left: 594px;
-
   font-family: 'Roboto';
   font-size: 12px;
   line-height: 20px;
