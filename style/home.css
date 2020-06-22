@@ -15,9 +15,10 @@ body {
 
 section#pageup {
   background-image: url("../assets/background.jpg");
-  color: #E5E5E5;
   height: 380px;
+
   font-family: 'Ubuntu';
+  color: #E5E5E5;
 }
 
 /* Nome/Logo da empresa */
@@ -26,7 +27,7 @@ h2#logo {
   position: absolute;
   width: 110px;
   height: 30px;
-  left: 102px;
+  left: 100px;
   top: 10px;
 
   font-family: 'Piedra';
@@ -35,19 +36,17 @@ h2#logo {
   font-size: 24px;
   line-height: 30px;
   display: flex;
-  align-items: center;
-  text-align: center;
 
   color: #FFFFFF;
 }
 
-/* Background do topo da página */
+/* Ícones topo da página */
 
 section#pageup img {
   position: relative;
   width: 25px;
   height: 25px;
-  left: 72px;
+  left: 70px;
   top: 30px;
 }
 
@@ -59,9 +58,8 @@ div#navigation nav {
 
 div#navigation nav ul {
   list-style: none;
-  position: absolute;
-  top: 0px;
-  left: 480px;
+  margin-top: -10px;
+  text-align: center;
 }
 
 div#navigation nav li {
@@ -87,9 +85,9 @@ div#instagram {
   width: 200px;
   height: 100px;
 
-  text-align: center;
-  margin-left: 1090px;
-  margin-top: -20px;
+  position: absolute;
+  right: 70px;
+  top: 5px;
 }
 
 div#instagram a#username {
@@ -103,7 +101,7 @@ div#instagram a#username:hover {
 
 div#instagram a#insta {
   position: relative;
-  right: 72px;
+  right: 70px;
   bottom: 22px;
 }
 
@@ -113,7 +111,7 @@ div#description {
   position: absolute;
   width: 745px;
   height: 85px;
-  left: 72px;
+  left: 70px;
   top: 120px;
 
   font-style: normal;
@@ -130,11 +128,11 @@ div#description {
 /* Questão sobre a empresa */
 
 section#question {
-  position: absolute;
+  position: relative;
   width: 255px;
   height: 237px;
-  left: 72px;
-  top: 370px;
+  left: 70px;
+  top: -20px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -158,7 +156,7 @@ picture img {
   position: absolute;
   width: 500px;
   height: 334px;
-  left: 765px;
+  right: 70px;
   top: 370px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.80);
@@ -181,7 +179,7 @@ footer p#contato {
   position: absolute;
   width: 400px;
   height: 40px;
-  left: 72px;
+  left: 70px;
 
   margin-top: 10px;
 
