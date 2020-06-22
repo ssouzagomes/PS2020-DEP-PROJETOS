@@ -15,6 +15,7 @@ body {
 
 section#pageup {
   background-image: url("../assets/background.jpg");
+  color: #E5E5E5;
   height: 380px;
 
   font-family: 'Ubuntu';
