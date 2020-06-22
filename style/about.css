@@ -15,10 +15,13 @@ body {
 
 section#pageup {
   background-image: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+
+  width: 100%;
   height: 380px;
 
-  color: #E5E5E5;
   font-family: 'Ubuntu';
+  color: #E5E5E5;
 }
 
 /* Nome/Logo da empresa */
