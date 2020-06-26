@@ -20,9 +20,9 @@
       <div id="navigation">
         <nav>
           <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">Sobre</a></li>
-            <li><a href="products.html">Produtos</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">Sobre</a></li>
+            <li><a href="products.php">Produtos</a></li>
           </ul>
         </nav>
       </div>
