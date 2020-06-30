@@ -15,7 +15,7 @@
 
   <section id="pageup">
     <header>
-      <a href="index.php"><img src="../assets/logo_first.svg"><h2 id="logo">Mask Corp</h2></a>
+      <a href="../index.php"><img src="../assets/logo_first.svg"><h2 id="logo">Mask Corp</h2></a>
 
       <div id="navigation">
         <nav>
