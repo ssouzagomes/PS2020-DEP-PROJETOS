@@ -50,7 +50,7 @@
 
   <section id="insta">
     <a href="http://instagram.com/mask.corp2020" target="_blank">
-    <strong>COMPRAR</strong></a>
+    <strong>Comprar</strong></a>
   </section>
 
   <footer>
