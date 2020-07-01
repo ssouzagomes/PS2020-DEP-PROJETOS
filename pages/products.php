@@ -36,11 +36,6 @@
       </div>
     </header>
   </section>
-
-  <section id="insta">
-    <a id="CliqueAqui" href="http://instagram.com/mask.corp2020" target="_blank">
-    <strong>Clique aqui</strong> para</br>acessar o nosso<br><strong st>INSTAGRAM</strong></a>
-  </section>
   
   <section id="images">
     <picture>
@@ -51,6 +46,11 @@
       <img src="../assets/product5.jpg">
       <img src="../assets/product6.jpg">
     </picture>
+  </section>
+
+  <section id="insta">
+    <a href="http://instagram.com/mask.corp2020" target="_blank">
+    <strong>COMPRAR</strong></a>
   </section>
 
   <footer>

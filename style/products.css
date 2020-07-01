@@ -110,21 +110,23 @@ div#instagram a#insta {
 }
 
 section#insta{
+  position: relative;
+  left: 45%;
   background-color: #0377BB;
-  height: 90px;
-  width: 150px;
+
+  width: 200px;
   border-radius: 20px;
   border: 2px solid black;
   text-align: center;
-  margin-right: 40px;
-  margin-top: 70px;
-  float: right;
 }
 
-#CliqueAqui{
+section#insta a{
   color: white;
-  font-size: large;
-  line-height: 29px;
+  font: 'Roboto';
+  font-size: 15pt;
+
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Imagens */
@@ -137,18 +139,18 @@ section#images img {
 
   border-radius: 20px;
 
-  margin-left: 60px;
-  margin-right: 45px;
+  margin-left: 70px;
+  margin-right: 70px;
   margin-bottom: 50px;
 }
 
 /* Rodapé */
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 70px;
-  top: 750px;
+  margin-top: 50px;
 
   border-top: 1px solid #606060;
   background: #E5E5E5;;

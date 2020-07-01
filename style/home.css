@@ -170,10 +170,10 @@ picture img {
 /* Rodapé */
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 70px;
-  top: 750px;
+  margin-top: 100px;
 
   border-top: 1px solid #606060;
   background: #E5E5E5;;
