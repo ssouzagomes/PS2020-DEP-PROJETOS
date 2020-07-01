@@ -131,43 +131,34 @@ div#description {
 
 /* Seção inferior da página */
 
-section#pagedowm {
+#BB{
+  text-align: center;
+  margin-top: 4%;
+}
+
+#AB{
+  display: inline-block;
   font-family: 'Roboto';
   font-style: normal;
   font-size: 24px;
   line-height: 30px;
-
   color: #000000;
+  text-align: justify;
 }
 
-section#pagedowm p#mission {
-  position: absolute;
-
-  width: 348px;
-  height: 147px;
-  left: 64px;
-  top: 444px;
-  text-align: left;
+div#mission{
+  float: left;
 }
 
-section#pagedowm p#vision {
-  position: absolute;
-  
-  width: 348px;
-  height: 107px;
-  left: 509px;
-  top: 537px;
-  text-align: center;
+div#vision{
+  margin-top: 5%;
+  float: right;
+  margin-left: 200px;
 }
 
-section#pagedowm p#values {
-  position: absolute;
-
-  width: 348px;
-  height: 137px;
-  left: 950px;
-  top: 444px;
-  text-align: right;
+div#values{
+  float: right;
+  margin-left: 200px;
 }
 
 /* Rodapé */

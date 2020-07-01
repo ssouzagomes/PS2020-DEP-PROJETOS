@@ -42,19 +42,25 @@
     </div>
   </section>
 
-  <section id="pagedowm">
-    <p id="mission">
-      <strong>Missão:</strong> Produzir máscaras de qualidade que garantam o máximo de segurança à saúde de nossos clientes, sem deixar o estilo de lado.
-    </p>
-
-    <p id="vision">
-      <strong>Visão:</strong> Ser a empresa nº 1 de máscaras personalizadas da Região e consolidar fidelidade com o clientes.
-    </p>
-
-    <p id="values">
-      <strong>Valores:</strong> Satisfação do cliente, valorização e respeito às pessoas, responsabilidade social e garantia de um produto de qualidade.
-    </p>
-  </section>
+  <div id="BB">
+    <div id="AB">
+      <div id="mission">
+        <a>
+          <strong>Missão:</strong> Produzir máscaras de </br>qualidade que garantam o </br>máximo de segurança à saúde </br>de nossos clientes, sem deixar o </br>estilo de lado.
+        </a>
+      </div>
+      <div id="values">
+        <a>
+          <strong>Valores:</strong> Satisfação do cliente, </br>valorização e respeito às </br>pessoas, responsabilidade </br>social e garantia de um produto </br>de qualidade.
+        </a>
+      </div>
+      <div id="vision">
+        <a>
+          <strong>Visão:</strong> Ser a empresa nº 1 </br>de máscaras personalizadas da </br>Região e consolidar fidelidade </br>com o clientes.
+        </a>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <p id="contato">
