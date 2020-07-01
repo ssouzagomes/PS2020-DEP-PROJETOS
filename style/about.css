@@ -133,7 +133,7 @@ div#description {
 
 #BB{
   text-align: center;
-  margin-top: 4%;
+  margin-top: 50px;
 }
 
 #AB{
@@ -151,7 +151,7 @@ div#mission{
 }
 
 div#vision{
-  margin-top: 5%;
+  margin-top: 80px;
   float: right;
   margin-left: 200px;
 }
