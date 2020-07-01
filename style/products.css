@@ -133,6 +133,10 @@ section#insta a{
 
 /* Imagens */
 
+div#images{
+  text-align: center;
+}
+
 section#images img {
   position: relative;
   display: inline-block;

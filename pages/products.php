@@ -37,16 +37,18 @@
     </header>
   </section>
   
-  <section id="images">
-    <picture>
-      <img src="../assets/product1.jpg">
-      <img src="../assets/product2.jpg">
-      <img src="../assets/product3.jpg">
-      <img src="../assets/product4.jpg">
-      <img src="../assets/product5.jpg">
-      <img src="../assets/product6.jpg">
-    </picture>
-  </section>
+  <div id="images">
+    <section id="images">
+      <picture>
+        <img src="../assets/product1.jpg">
+        <img src="../assets/product2.jpg">
+        <img src="../assets/product3.jpg">
+        <img src="../assets/product4.jpg">
+        <img src="../assets/product5.jpg">
+        <img src="../assets/product6.jpg">
+      </picture>
+    </section>
+  </div>
 
   <section id="insta">
     <a href="http://instagram.com/mask.corp2020" target="_blank">
