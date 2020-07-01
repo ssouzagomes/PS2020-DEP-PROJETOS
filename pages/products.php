@@ -30,7 +30,6 @@
       <div id="instagram">
         <p>
           Acesse nosso <strong style="color:black">Instagram</strong> para realizar sua compra:</br>
-
           &nbsp; <a id="insta" href="http://instagram.com/mask.corp2020" target="_blank"><img src="../assets/instagram.svg"></a> &nbsp;
           <a id="username" href="http://instagram.com/mask.corp2020" target="_blank"><strong>@mask.corp2020</strong></a>
         </p>
@@ -38,6 +37,11 @@
     </header>
   </section>
 
+  <section id="insta">
+    <a id="CliqueAqui" href="http://instagram.com/mask.corp2020" target="_blank">
+    <strong>Clique aqui</strong> para</br>acessar o nosso<br><strong st>INSTAGRAM</strong></a>
+  </section>
+  
   <section id="images">
     <picture>
       <img src="../assets/product1.jpg">

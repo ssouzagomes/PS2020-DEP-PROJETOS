@@ -109,17 +109,35 @@ div#instagram a#insta {
   bottom: 22px;
 }
 
+section#insta{
+  background-color: #0377BB;
+  height: 90px;
+  width: 150px;
+  border-radius: 20px;
+  border: 2px solid black;
+  text-align: center;
+  margin-right: 40px;
+  margin-top: 70px;
+  float: right;
+}
+
+#CliqueAqui{
+  color: white;
+  font-size: large;
+  line-height: 29px;
+}
+
 /* Imagens */
 
 section#images img {
   position: relative;
   display: inline-block;
-  width: 324px;
+  width: 304px;
   height: 250px;
 
   border-radius: 20px;
 
-  margin-left: 70px;
+  margin-left: 60px;
   margin-right: 45px;
   margin-bottom: 50px;
 }
