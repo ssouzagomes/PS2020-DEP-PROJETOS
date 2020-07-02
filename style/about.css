@@ -138,34 +138,32 @@ section#pagedowm {
   line-height: 30px;
 
   color: #000000;
+  text-align: center;
+  display: inline-block;
+}
+
+section#pagedowm p {
+  width: 348px;
+  height: 147px;
 }
 
 section#pagedowm p#mission {
   position: absolute;
-
-  width: 348px;
-  height: 147px;
-  left: 64px;
+  left: 70px;
   top: 444px;
   text-align: left;
 }
 
 section#pagedowm p#vision {
   position: absolute;
-  
-  width: 348px;
-  height: 107px;
-  left: 509px;
-  top: 537px;
+  left: 40%;
+  top: 540px;
   text-align: center;
 }
 
 section#pagedowm p#values {
   position: absolute;
-
-  width: 348px;
-  height: 137px;
-  left: 950px;
+  right: 70px;
   top: 444px;
   text-align: right;
 }
