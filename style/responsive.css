@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media (max-width: 900px) {
+    #page-home footer {
+        margin-top: 24px;
+    }
+
+    #page-home footer p#copy {
+        margin-right: 0;
+    }
+
+    #page-home main section img {
+        width: 300px;
+        height: 250px;
+    }
+
+    #page-home main section div h1 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    #page-home main section div p {
+        font-size: 12pt;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+    #page-home header {
+        flex-direction: column;
+
+        margin-bottom: 16px;
+    }
+
+    #page-home main p#description {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #page-home main section img {
+        width: 250px;
+        height: 200px;
+    }
+
+    #page-home main section div {
+        position: relative;
+        display: inline-block;
+        width: 300px;
+    }
+
+    #page-home footer {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 550px) {
+    #page-home main section {
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home footer::after {
+        top: 850px;
+    }
+
+    #page-home main section div {
+        margin-bottom: 32px;
+    }
+
+    #page-home main section div h1,
+    #page-home main section div p{
+        line-height: 30px;
+    }
+
+    #page-home footer {
+        margin-top: 30px;
+
+        font-size: 9pt;
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #page-home footer::after {
+        height: 12rem;
+    }
+}

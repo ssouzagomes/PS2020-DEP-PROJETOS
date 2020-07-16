@@ -1,216 +1,210 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-/* Corpo da página */
-
 body {
-  background: #FFFFFF;
-  font-family: sans-serif;
-  margin: auto;
+  background-color: white;
 }
 
-/* Topo da página */
-
-section#pageup {
-  background-image: url("../assets/background.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  width: 100%;
-  height: 400px;
-
-  font-family: 'Ubuntu';
-  color: #E5E5E5;
-}
-
-/* Nome/Logo da empresa */
-
-h2#logo {
+body::after {
+  content: "";
   position: absolute;
-  width: 110px;
-  height: 30px;
-  left: 100px;
-  top: 10px;
+  background: #0377BB;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 18rem;
+  z-index: -1;
+}
 
-  font-family: 'Piedra';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+#page-home .content {
+  width: 90%;
+  max-width: 1100px;
+  height: 100%;
+
+  margin: 0 auto;
+
   display: flex;
-
-  color: #FFFFFF;
+  flex-direction: column;
 }
 
-/* Ícones topo da página */
-
-section#pageup img {
-  position: relative;
-  width: 25px;
-  height: 25px;
-  left: 70px;
-  top: 30px;
-}
-
-/* Navegação entre páginas */
-
-div#navigation nav {
-  display: block;
-}
-
-div#navigation nav ul {
-  list-style: none;
-  margin-top: -10px;
-  text-align: center;
-}
-
-div#navigation nav li {
-  display: inline-block;
-  padding: 10px;
-  margin: 10px;
-  transition: background-color 1s;
-}
-
-
-div#navigation nav li:hover {
-  background-color: #30443B;
-}
-
-div#navigation nav a {
-  color: #E5E5E5;
-  text-decoration: none;
-}
-
-/* Link para o Instagram */
-
-div#instagram {
-  width: 200px;
-  height: 100px;
-
-  position: absolute;
-  right: 70px;
-  top: 5px;
-}
-
-div#instagram a#username {
-  color: #E5E5E5;
-  text-decoration: none;
-}
-
-div#instagram a#username:hover {
-  color: #30443B;
-}
-
-div#instagram a#insta {
-  position: relative;
-  right: 70px;
-  bottom: 22px;
-}
-
-/* Descrição da Empresa no topo da página*/
-
-div#description {
-  position: absolute;
-  width: 745px;
-  height: 85px;
-  left: 70px;
-  top: 120px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+#page-home header {
+  margin-top: 48px;
+  margin-bottom: 48px;
 
   display: flex;
   align-items: center;
-
-  color: #E5E5E5;
+  justify-content: space-between;
 }
 
-/* Questão sobre a empresa */
+#page-home header a {
+  display: flex;
+}
 
-section#question {
-  position: relative;
-  width: 255px;
-  height: 237px;
-  left: 70px;
-  top: -20px;
+#page-home header a#logo {
+  font-family: Piedra;
+  font-size: 24px;
+}
 
-  font-family: 'Roboto';
-  font-style: normal;
+#page-home header a#logo img {
+  margin-right: 16px;
+  display: flex;
+
+  background-image: url('../assets/logo_first.svg');
+
+  width: 32px;
+  height: 32px;
+}
+
+#page-home header ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 250px;
+}
+
+#page-home header ul li {
+  font-size: 13pt;
+
+  padding: 8px;
+  border-radius: 8px;
+
+  transition: background-color 1s;
+}
+
+#page-home header ul li:hover {
+  background-color: #30443B;
+}
+
+#page-home header p {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+}
+
+#page-home header p a {
+  font-weight: bold;
+
+  margin-top: 8px;
+}
+
+#page-home header p a img {
+  margin-right: 8px;
+  display: flex;
+
+  background-image: url('../assets/instagram.svg');
+
+  width: 20px;
+  height: 20px;
+}
+
+#page-home main p#description {
+  font-size: 15pt;
+  line-height: 32px;
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+
+#page-home main section {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 80px;
+  margin-bottom: 64px;
+}
+
+#page-home main section div {
+  width: 264px;
+
+  font: Roboto;
   color: black;
 }
 
-section#question h1 {
+#page-home main section div h1 {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
+
+  margin-bottom: 16px;
 }
 
-section#question p {
-  font-size: 18px;
-  line-height: 22px;
+#page-home main section div p {
+  font-size: 13pt;
+  line-height: 24px;
 }
 
-/* Imagem página inicial */
+#page-home main section img {
+  width: 450px;
+  height: 300px;
 
-picture img {
+  border-radius: 16px;
+}
+
+#page-home footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  bottom: 0;
+
+  color: black;
+}
+
+#page-home footer::after {
+  content: "";
   position: absolute;
-  width: 500px;
-  height: 334px;
-  right: 70px;
-  top: 370px;
+  background: #E5E5E5;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.80);
-  border-radius: 20px;
-}
+  left: 0;
+  top: 685px;
+  right: 0;
+  bottom: 0;
 
-/* Rodapé */
-
-footer {
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  bottom: -150px;
+  height: 7rem;
+  z-index: -1;
 
   border-top: 1px solid #606060;
-  background: #E5E5E5;;
 }
 
-footer p#contato {
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 70px;
+footer p {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
 
-  margin-top: 10px;
+footer span {
+  margin-right: 8px;
+  display: flex;
+  
+  width: 24px;
+  height: 24px;
+}
 
-  font-family: 'Ubuntu';
-  font-size: 16px;
-  line-height: 24px;
+footer p#mail span {
+  background-image: url('../assets/mail.svg');
+}
 
-  text-align: left;
-  color: #000000;
+footer p#ig span {
+  background-image: url('../assets/insta_footer.png');
 }
 
 footer p#copy {
-  font-family: 'Roboto';
-  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+
+  /* margin-right: 45%; */
+
+  font-size: 14px;
   line-height: 20px;
-
-  text-align: center;
-  color: #000000;
+  color: black;
 }
 
-footer a {
-  color: #000000;
-  text-decoration: none;
-}
-
-footer img {
-  position: flex;
-  width: 15px;
-  height: 15px;
+footer p#copy a {
+  font-style: italic;
+  color: #3F51B4;;
 }
