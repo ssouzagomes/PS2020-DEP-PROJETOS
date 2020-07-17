@@ -11,7 +11,7 @@
 
   <link rel='stylesheet' type='text/css' media='screen' href='style/responsive.css'>
 
-  <link rel="icon" type="imagem/svg" href="assets/logo_second.svg" />
+  <link rel='icon' type="imagem/svg" href='assets/icon.svg'>
   
   <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Ubuntu:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -21,12 +21,12 @@
     <div class=content>
 
       <header>
-        <a id="logo" href="/"><img src="/assets/logo_first.svg" alt="Logomarca">Mask Corp</a>
+        <a id="logo" href="index.php"><img src="assets/logo.svg" alt="Logomarca">Mask Corp</a>
 
         <ul>
-          <li><a href="/">Início</a></li>
+          <li><a href="index.php">Início</a></li>
           <li><a href="pages/about.php">Sobre</a></li>
-          <li><a href="/pages/products.php">Produtos</a></li>
+          <li><a href="pages/products.php">Produtos</a></li>
         </ul>
 
         <p>Acesse nosso Instagram<br/>para realizar sua compra:<br/> <a href="http://instagram.com/suri.souza"><img src="assets/instagram.svg" alt="Instagram">Instagram</a></p>
@@ -45,7 +45,7 @@
             </p>
           </div>
 
-          <img src="/assets/home.jpg" alt="Confecção">
+          <img src="assets/home.jpg" alt="Confecção">
         </section>
       </main>
 
