@@ -49,8 +49,6 @@ body::after {
   margin-right: 16px;
   display: flex;
 
-  background-image: url('../assets/logo_first.svg');
-
   width: 32px;
   height: 32px;
 }
