@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#pagedowm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  font: Roboto;
+}
+
+#pagedowm p {
+  width: 300px;
+}
+
+#pagedowm p#vision {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#pagedowm p#values {
+  text-align: right;
+}
+
+#page-home footer#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  color: black;
+}
+
+#page-home footer#about::after {
+  content: "";
+  position: absolute;
+  background: #E5E5E5;
+
+  left: 0;
+  top: 600px;
+  right: 0;
+  bottom: 0;
+
+  height: 7rem;
+  z-index: -1;
+
+  border-top: 1px solid #606060;
+}

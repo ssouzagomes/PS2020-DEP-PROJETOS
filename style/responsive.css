@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@media (max-width: 1140px) {
+    #page-home footer#products::after {
+        top: 1020px;
+    }
+}
+
+@media (max-width: 900px) {
+    #page-home footer {
+        margin-top: 24px;
+    }
+
+    #page-home footer p#copy {
+        margin-right: 0;
+    }
+
+    #page-home main section img {
+        width: 300px;
+        height: 250px;
+    }
+
+    #page-home main section div h1 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    #page-home main section div p {
+        font-size: 12pt;
+        line-height: 20px;
+    }
+
+    #page-home footer#about::after {
+        top: 700px;
+    }
+}
+
+@media (max-width: 777px) {
+    #page-home footer#products::after {
+        top: 1820px;
+    }
+
+    #page-home main a#buy {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 670px) {
+    #page-home header {
+        flex-direction: column;
+
+        margin-bottom: 16px;
+    }
+
+    #page-home main p#description {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #page-home main section img {
+        width: 250px;
+        height: 200px;
+    }
+
+    #page-home main section div {
+        position: relative;
+        display: inline-block;
+        width: 300px;
+    }
+
+    #page-home footer {
+        margin-top: 120px;
+    }
+
+    body#products::after {
+        height: 13rem;
+    }
+
+    #page-home footer#products::after {
+        top: 1930px;
+    }
+
+    #page-home main a#buy {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    #page-home main section {
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home footer::after {
+        top: 850px;
+    }
+
+    #page-home main section div {
+        margin-bottom: 32px;
+    }
+
+    #page-home main section div h1,
+    #page-home main section div p{
+        line-height: 30px;
+    }
+
+    #page-home footer {
+        margin-top: 30px;
+        font-size: 9pt;
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #page-home footer::after {
+        height: 12rem;
+    }
+
+    #pagedowm {
+        flex-direction: column;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #pagedowm p#vision {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #pagedowm p#values {
+        text-align: center;
+    }
+
+    #page-home footer#about {
+        margin-top: 100px;
+    }
+
+    #page-home footer#about::after {
+        height: 10rem;
+    }
+
+    #page-home footer#products::after {
+        top: 1850px;
+    }
+
+    #page-home main a#buy {
+        margin-bottom: 32px;
+        margin-left: 33%;
+    }
+}
+
+@media (max-width: 390px) {
+    #page-home main div#images {
+        margin-left: 0;
+    }
+
+    #page-home main a#buy {
+        margin-bottom: 32px;
+        margin-left: 24%;
+    }
+}
